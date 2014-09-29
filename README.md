@@ -75,7 +75,7 @@ Let's start with our service as it will be where our data begins and ends.
 
 As a reminder, here is the anatomy of a POST GET PUT and DELETE request in AngularJS:
 
-###POST: https://parse.com/docs/js_guide#objects-saving
+###POST: https://parse.com/docs/rest#objects-creating
 
 <ul>
 	<li>A Deferred variable for your promises</li>
@@ -89,7 +89,7 @@ As a reminder, here is the anatomy of a POST GET PUT and DELETE request in Angul
 	<li>lastly return the promise object</li>
 </ul>
 
-###GET: https://parse.com/docs/js_guide#objects-retrieving
+###GET: https://parse.com/docs/rest#objects-retrieving
 
 <ul>
 	<li>A Deferred variable for your promises</li>
@@ -102,7 +102,7 @@ As a reminder, here is the anatomy of a POST GET PUT and DELETE request in Angul
 	<li>lastly return the promise object</li>
 </ul>
 
-###PUT: 
+###PUT: https://parse.com/docs/rest#objects-updating
 
 <ul>
 	<li>A Deferred variable for your promises</li>
@@ -116,7 +116,7 @@ As a reminder, here is the anatomy of a POST GET PUT and DELETE request in Angul
 	<li>lastly return the promise object</li>
 </ul>
 
-###DELETE:
+###DELETE: https://parse.com/docs/rest#objects-deleting
 
 <ul>
 	<li>A Deferred variable for your promises</li>
@@ -144,6 +144,8 @@ In the index file we need:
 	<li>An input field that takes in the actual question (ng-model)</li>
 	<li>A button that submits our question into postData function in our controller (ng-click) </li>
 </ul>
+
+
 
 
 
