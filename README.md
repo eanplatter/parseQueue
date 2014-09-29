@@ -2,6 +2,8 @@
 
 Today we are going to be building a queue app similar to the one we use during class. Instead of a Firebase backend though, we will be using Parse. 
 
+Sign up for an account at Parse: http://parse.com
+
 Parse is good because it encourages us to create a RESTful API. We will learn how to make the 4 HTTP requests with AgularJS:
 
 <ul>
@@ -106,6 +108,9 @@ As a reminder, here is the anatomy of a POST GET PUT and DELETE request in Angul
 	<li>lastly return the promise object</li>
 </ul>
 
+<hr>
+
+After creating a way to post data to our database
 
 
 
