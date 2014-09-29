@@ -134,7 +134,7 @@ As a reminder, here is the anatomy of a POST GET PUT and DELETE request in Angul
 
 After creating our POST request, we need to head over to the controller so that our users can create data on their own from the view. 
 
-In the controller create a postData function. This function will take in our question from the view and pass it into the service. Refer to the chat app, it will have a very similar function. 
+In the controller create a postData function. This function will take in our question from the view and pass it into the service. Refer to the chat app, it will have a very similar function. all the greend ots lost
 
 
 
