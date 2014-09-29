@@ -203,8 +203,13 @@ Once we have answered someones question, we want to remove it from the list. We 
 
 <ul>
 	<li>Create a function on our service called deteleData. This function is similar to our get data function, but it targets a single object via it's objectID and uses the delete method.</li>
-	<li></li>
+	<li>Then create a function in the controller that pulls the detele function from the service.</li>
+	<li>Then in the ng-repeat that shows yellow questions create a button that calls the delete function from the controller.</li>
 </ul>
+
+Now we should be able to delete our questions once they have been answered! 
+
+Wowee!
 
 
 
