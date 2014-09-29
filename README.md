@@ -37,10 +37,10 @@ Parse is good because it encourages us to create a RESTful API. We will learn ho
 
 #Step 1 - Set Up Application
 
-The first thing we need to do is create and link all of our files. ** The AngularJS CDN is already loaded into the app, no need to look for outside code. **
+The first thing we need to do is create and link all of our files. The AngularJS CDN is already loaded into the app, no need to look for outside code.
 
 <ul>
-	<li>Create MainController.js in the *controllers* folder and link it in the index</li>
+	<li>Create MainController.js in the controllers folder and link it in the index</li>
 	<li>Create parseService.js in the *services* folder and link it in the index</li>
 	<li>Link the main.css file in the index</li>
 	<li>Link the app.js file in the index</li>
@@ -49,7 +49,7 @@ The first thing we need to do is create and link all of our files. ** The Angula
 We next want to ensure angular is working correctly, first connect your view and controller: 
 
 <ul>
-	<li>Create your angular module and palce it in all of your JavaScript files. *remember: var app = angular.module('parseQ', [])*</li>
+	<li>Create your angular module and palce it in all of your JavaScript files. remember: var app = angular.module('parseQ', [])</li>
 	<li>Place the ng-app into your index</li>
 	<li>Create your MainController and place it in your index using ng-controller</li>
 </ul>
@@ -145,6 +145,11 @@ In the index file we need:
 	<li>A button that submits our question into postData function in our controller (ng-click) </li>
 </ul>
 
+Once everything is in place, we should be able to ask a question from our browser and then see that question in our Parse dashboard. 
+
+#Step 3 - Retrieving Questions
+
+Once we
 
 
 
