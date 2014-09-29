@@ -4,6 +4,22 @@ Today we are going to be building a queue app similar to the one we use during c
 
 Sign up for an account at Parse: http://parse.com
 
+Then once logged into Parse, create a new app. After the app is created you will be shown your API keys. Don't leave this page until you have set up your keys. 
+
+To do that create a file in your js folder called 'defaultHeaders.js'.
+
+````javascript
+	var app = angular.module('parseQ');
+
+	app.factory('httpRequestInterceptor', function () {
+	  return {
+	    request: function (config) {
+	      config.headers = {'X-Parse-Application-Id': 'YupD6LnOrpVJsZ6O0CTQ8X2Qz6g0Jpk7270uWJRK', 'X-Parse-REST-API-Key': 'JYRPLQOFOKYBgdzV8DizJAAoHMqmu14rIO2OYk42'}
+	      return config;
+	    }
+	  };
+	});
+
 Parse is good because it encourages us to create a RESTful API. We will learn how to make the 4 HTTP requests with AgularJS:
 
 <ul>
