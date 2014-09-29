@@ -44,6 +44,74 @@ We will begin by making it possible to create questions, primarily because this 
 Let's start with our service as it will be where our data begins and ends. 
 
 <ul>
-	<li>Go to your parse service and create a POST method, that takes in a question as a parameter.</li>
+	<li>Go to your parse service and create a POST method, that takes in a question as a parameter. *Don't hesitate to refer to the chat app we made last week.*</li>
 </ul>
+
+##SIDENOTE
+
+As a reminder, here is the anatomy of a POST GET PUT and DELETE request in AngularJS:
+
+###POST:
+
+<ul>
+	<li>A Deferred variable for your promises</li>
+	<li>An $http request:</li>
+	<ul>
+		<li>The *method* of the request</li>		
+		<li>The data object you're passing in</li>
+		<li>the URL of the reqest</li>
+	</ul>
+	<li>An appended promise object</li>
+	<li>lastly return the promise object</li>
+</ul>
+
+###GET:
+
+<ul>
+	<li>A Deferred variable for your promises</li>
+	<li>An $http request:</li>
+	<ul>
+		<li>The *method* of the request</li>		
+		<li>the URL of the reqest</li>
+	</ul>
+	<li>An appended promise object</li>
+	<li>lastly return the promise object</li>
+</ul>
+
+###PUT:
+
+<ul>
+	<li>A Deferred variable for your promises</li>
+	<li>An $http request:</li>
+	<ul>
+		<li>The *method* of the request</li>		
+		<li>The data object you're editing</li>
+		<li>the URL of the reqest</li>
+	</ul>
+	<li>An appended promise object</li>
+	<li>lastly return the promise object</li>
+</ul>
+
+###DELETE:
+
+<ul>
+	<li>A Deferred variable for your promises</li>
+	<li>An $http request:</li>
+	<ul>
+		<li>The *method* of the request</li>		
+		<li>The data object you're deleting</li>
+		<li>the URL of the reqest</li>
+	</ul>
+	<li>An appended promise object</li>
+	<li>lastly return the promise object</li>
+</ul>
+
+
+
+
+
+
+
+
+
 
