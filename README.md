@@ -138,6 +138,13 @@ In the controller create a postData function. This function will take in our que
 
 Now that our service is opening a connection from our app to Parse, and our controller is ready to take data in from the view and pass it to the service, we need to get our view set up!
 
+In the index file we need: 
+
+<ul>
+	<li>An input field that takes in the actual question (ng-model)</li>
+	<li>A button that submits our question into postData function in our controller (ng-click) </li>
+</ul>
+
 
 
 
