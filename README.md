@@ -181,6 +181,12 @@ Once we have a list of students asking questions in the queue, we need to be abl
 
 We should have created our postData function in our service that takes in a question. In the data section of that $http request, we said: data: {text: question}. Now we want to add another key-value pair to the questions so that they have not only a text attribute, but also a status attribute. 
 
+Let's do that by just creating a default status of 'red'. We will say new questions have the status of 'red', while questions that are 'being helped' will have a status of 'yellow'. 
+
+This will make it easy for our filters to know where to show new and old questions.
+
+
+
 
 
 
