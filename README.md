@@ -6,7 +6,7 @@ Sign up for an account at Parse: http://parse.com
 
 Then once logged into Parse, create a new app. After the app is created you will be shown your API keys. Don't leave this page until you have set up your keys. 
 
-To do that create a file in your js folder called 'defaultHeaders.js'.
+To do that create a file in your js folder called 'defaultHeaders.js'. Then copy your Application id and REST API key into the following code:
 
 ````javascript
 	var app = angular.module('parseQ');
@@ -14,7 +14,7 @@ To do that create a file in your js folder called 'defaultHeaders.js'.
 	app.factory('httpRequestInterceptor', function () {
 	  return {
 	    request: function (config) {
-	      config.headers = {'X-Parse-Application-Id': 'YupD6LnOrpVJsZ6O0CTQ8X2Qz6g0Jpk7270uWJRK', 'X-Parse-REST-API-Key': 'JYRPLQOFOKYBgdzV8DizJAAoHMqmu14rIO2OYk42'}
+	      config.headers = {'X-Parse-Application-Id': 'INSERT-YOUR-APPLICATION-ID', 'X-Parse-REST-API-Key': 'INSERT-YOUR-REST-API-KEY'}
 	      return config;
 	    }
 	  };
