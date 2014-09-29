@@ -197,6 +197,14 @@ Now that each question will have a default status of 'red', we need to make a wa
 
 Now we should be able to create a new question, watch it show up in the new question list, then move it to the 'being helped' or yellow list.
 
+#Step 4 - Delete Questions
+
+Once we have answered someones question, we want to remove it from the list. We could easily do this by changing the status from yellow to something other than red and yellow. Then it wouldn't show up on any of the ng-repeats, but instead we are actually going to delete our questions from Parse. 
+
+<ul>
+	<li>Create a function on our service called </li>
+</ul>
+
 
 
 
