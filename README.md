@@ -190,7 +190,11 @@ Now that each question will have a default status of 'red', we need to make a wa
 <ul>
 	<li>Create a updateData function in our service. It will be similar to the postData function, except instead of passing in data: {text: question, status: 'red'} we will only pass in data: {status: 'red'} </li>
 	<li>Create a changeStatus function in the controller that takes in the updateData function from the service. </li>
+	<li>In your index create a button within your ng-repeat that runs the changeStatus function. This button should change the questions status from 'red' to 'yellow'</li>
+	<li>Add a filter to the original ng-repeat so that it only shows objects with the status of red</li>
+	<li>Create a new ng-repeat that filters out only the objects with the status of yellow</li>
 </ul>
+
 
 
 
