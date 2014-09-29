@@ -195,6 +195,10 @@ Now that each question will have a default status of 'red', we need to make a wa
 	<li>Create a new ng-repeat that filters out only the objects with the status of yellow</li>
 </ul>
 
+Now we should be able to create a new question, watch it show up in the new question list, then move it to the 'being helped' or yellow list.
+
+
+
 
 
 
