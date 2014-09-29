@@ -164,7 +164,16 @@ Add the getParseData function to our postData function within our controller, so
 
 Now at the bottom of our getParseData function let's add a console.log that will show us the data it retrieves. 
 
-If we enter a question we should see an array of objects in our console.
+If we enter a question we should see an array of objects in our console. 
+
+Now you can show your in your view:
+
+<ul>
+	<li>ng-repeat through the array showing the 'text' of each question</li>
+	<li>Make sure that now when you add a new question it shows up instantly in the list of questions.</li>
+</ul>
+
+
 
 
 
