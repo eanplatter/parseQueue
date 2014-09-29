@@ -202,7 +202,8 @@ Now we should be able to create a new question, watch it show up in the new ques
 Once we have answered someones question, we want to remove it from the list. We could easily do this by changing the status from yellow to something other than red and yellow. Then it wouldn't show up on any of the ng-repeats, but instead we are actually going to delete our questions from Parse. 
 
 <ul>
-	<li>Create a function on our service called </li>
+	<li>Create a function on our service called deteleData. This function is similar to our get data function, but it targets a single object via it's objectID and uses the delete method.</li>
+	<li></li>
 </ul>
 
 
