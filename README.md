@@ -5,8 +5,8 @@ Today we are going to be building a queue app similar to the one we use during c
 Parse is good because it encourages us to create a RESTful API. We will learn how to make the 4 HTTP requests with AgularJS:
 
 <ul>
-	<li>GET</li>
-	<li>POST</li>
-	<li>PUT</li>
-	<li>DELETE</li>
+	<li>GET - retrieve data</li>
+	<li>POST - create data</li>
+	<li>PUT - edit data</li>
+	<li>DELETE - delete data</li>
 </ul>
