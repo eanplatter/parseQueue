@@ -6,6 +6,10 @@ Sign up for an account at Parse: http://parse.com
 
 Then once logged into Parse, create a new app. After the app is created you will be shown your API keys. Don't leave this page until you have set up your keys. 
 
+Throughout this project, don't hesitate to check out the Parse API documentation. Being able to get answers from someone's documentation is an important skill. 
+
+View it here: https://parse.com/docs/js_guide
+
 To do that create a file in your js folder called 'defaultHeaders.js'. Then copy your Application id and REST API key into the following code:
 
 ````javascript
@@ -128,7 +132,9 @@ As a reminder, here is the anatomy of a POST GET PUT and DELETE request in Angul
 
 <hr>
 
-After creating a way to post data to our database
+After creating our POST request, we need to head over to the controller so that our users can create data on their own from the view. 
+
+In the controller create a postData function. This function will take in our question from the view and pass it into the service. Refer to the chat app, it will have a very similar function. 
 
 
 
