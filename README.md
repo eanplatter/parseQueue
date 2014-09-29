@@ -41,10 +41,9 @@ Then, create a test:
 
 We will begin by making it possible to create questions, primarily because this is the most important feature of our queue. 
 
-Let's start with just the view and controller. We want to ensure our users can make questions before we worry about writing them to the database. 
+Let's start with our service as it will be where our data begins and ends. 
 
 <ul>
-	<li></li>
-	<li>Create an input field in the index with a model</li>
+	<li>Go to your parse service and create a POST method, that takes in a question as a parameter.</li>
 </ul>
 
