@@ -173,7 +173,13 @@ Now you can show your in your view:
 	<li>Make sure that now when you add a new question it shows up instantly in the list of questions.</li>
 </ul>
 
+If everything is working it's time to move into editing our questions!
 
+#Step 4 - Editing Questions
+
+Once we have a list of students asking questions in the queue, we need to be able to escalate those questions to show which ones are being handled. 
+
+We should have created our postData function in our service that takes in a question. In the data section of that $http request, we said: data: {text: question}. Now we want to add another key-value pair to the questions so that they have not only a text attribute, but also a status attribute. 
 
 
 
