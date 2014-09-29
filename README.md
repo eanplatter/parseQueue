@@ -188,7 +188,8 @@ This will make it easy for our filters to know where to show new and old questio
 Now that each question will have a default status of 'red', we need to make a way to change that status. 
 
 <ul>
-	<li>Create a updateData function in our service. It will be similar to the postData function, except instead of passing in data: {text: question, status: 'red'} we will only pass in data: {status: 'red'} </li>
+	<li>Create a updateData function in our service. It will be similar to the postData however this time we will be using 'PUT' </li>
+	<li>To updated an object you will need to target it by the objects Id, passing it in as a url parameter.</li>
 	<li>Create a changeStatus function in the controller that takes in the updateData function from the service. </li>
 	<li>In your index create a button within your ng-repeat that runs the changeStatus function. This button should change the questions status from 'red' to 'yellow'</li>
 	<li>Add a filter to the original ng-repeat so that it only shows objects with the status of red</li>
@@ -197,7 +198,7 @@ Now that each question will have a default status of 'red', we need to make a wa
 
 Now we should be able to create a new question, watch it show up in the new question list, then move it to the 'being helped' or yellow list.
 
-#Step 4 - Delete Questions
+#Step 5 - Delete Questions
 
 Once we have answered someones question, we want to remove it from the list. We could easily do this by changing the status from yellow to something other than red and yellow. Then it wouldn't show up on any of the ng-repeats, but instead we are actually going to delete our questions from Parse. 
 
