@@ -21,3 +21,17 @@ The first thing we need to do is create and link all of our files. ** The Angula
 	<li>Link the main.css file in the index</li>
 	<li>Link the app.js file in the index</li>
 </ul>
+
+We next want to ensure angular is working correctly.
+
+#Step 2 - Creating Questions
+
+We will begin by making it possible to create questions, primarily because this is the most important feature of our queue. 
+
+Let's start with just the view and controller. We want to ensure our users can make questions before we worry about writing them to the database. 
+
+<ul>
+	<li></li>
+	<li>Create an input field in the index</li>
+</ul>
+
