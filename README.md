@@ -149,7 +149,15 @@ Once everything is in place, we should be able to ask a question from our browse
 
 #Step 3 - Retrieving Questions
 
-Once we
+Once we are able to save our questions to our Parse database we will want to retrieve those questions so that we can see them in our view! 
+
+Let's start:
+
+<ul>
+	<li>Create a getData function in your service</li>
+	<li>Then create a getData function in your controller, which will import the getData function from your service.</li>
+	<li></li>
+</ul>
 
 
 
